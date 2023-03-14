@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.bc-img {
+    width: 1366px;
+    height: 480px;
+    position: absolute;
+    top: 18px;
+    left: 0px;
+    background: linear-gradient(180deg, #9D0E0E00 0%, #4F0707 140%);
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    display: flex;
+
+
+}
+ .container-fluid{
+    position: relative;
+    left: -131px;
+    top: 47px;
+} 
+
+.loginb {
+    top: 16px;
+    left: 1015px;
+    width: 43px;
+    height: 23px;
+    position: absolute;
+    text-align: left;
+    text-decoration: none;
+    font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+    background-color: #0000;
+    display: flex;
+}
+
+.createanaccountb {
+    top: 19px;
+    left: 1084px;
+    width: 181px;
+    height: 46px;
+    border: white;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+    background-color: #0000;
+    text-size-adjust: 2px;
+    padding-left: 21px;
+    padding-top: 10px;
+    border: 1px solid;
+    position: absolute;
+    font: normal normal normal 14px/21px Poppins;
+    text-align: inherit;
+    display: flex;
+}
+a{
+position: absolute;
+background-color:#0000;
+
+
+}
+.loginb:hover {
+    color: white;
+}
+
+.createanaccountb:hover {
+    color: white;
+}
+
+.logob{
+    color: #EB2929;
+    position: absolute;
+    top: 81px;
+    left: 629px;
+    height: 147px;
+    width: 147px;
+    padding: 19px;
+    padding-left: 41px;
+    background-color: #fff;
+    border-radius: 50%;
+    border-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    font: normal normal 600 70px/106px Poppins;
+    font-weight: 600;
+
+}
+
+.restaurant-title {
+    top: 246px;
+    left: 306px;
+    width: 787px;
+    height: 51px;
+    position: absolute;
+    font: normal normal 600 36px/55px Poppins;
+    opacity: 1;
+    color: white;
+    font-weight: 600;
+    display: flex;
+}
+
+/*.locationselector {
+    top: 334px;
+    left: 311px;
+    width: 245px;
+    height: 60px;
+    position: absolute;
+    background-color: #fff;
+    padding: 19px;
+    font: normal normal normal 15px/23px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+    display: flex;
+}*/
+.locationDropdown{
+   left: 316px;
+   top: 334px;
+   position: absolute;
+   color: #636F88;
+   width: 213px;
+   height: 60px;
+   padding-left: 10px;
+  
+  }
+ 
+.searchrestaurant {
+    position: absolute;
+    top: 334px;
+    left: 575px;
+    width: 463px;
+    height: 60px;
+    padding-top: 0px;
+    padding-left: 80px;
+    background-color: #fff;
+    text-align: left;
+    font: normal normal normal 17px/20px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+    display: flex;
+}
+
+.searchicon {
+    top: 354px;
+    left: 611px;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    color: #636F88;
+    opacity: 0.97;
+    display: flex;
+}
+
+.quicksearch {
+    top: 528px;
+    left: 113px;
+    width: 245px;
+    height: 43px;
+    font: normal normal bold 30px/46px Poppins;
+    position: absolute;
+    color: #192F60;
+    opacity: 1;
+    font-weight: 600;
+    display: flex;
+}
+
+.dis-restaurant {
+    top: 578px;
+    left: 113px;
+    width: 331px;
+    height: 25px;
+    position: absolute;
+    color: #636F88;
+    opacity: 1;
+}
+
+.titleContainer {
+    height: 160px;
+    width: 350px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    box-shadow: 0 3px 6px gray;
+    float: left;
+    top: 81px;
+    left: 72px;
+    position: relative;
+  }
+  
+  .titleComponent1 {
+   position: absolute;
+   z-index: -1;
+  }
+  
+  .titleComponent2 {
+    width: 50%;
+    float: left;
+    margin-top: -189px;
+    top: 198px;
+    position:absolute;
+    left: 172px;
+  }
+  
+  .componentHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .componentSubHeading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+  }
+  
+  #notebook{
+    float: left;
+  }
+  #notebook ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    width:135px;
+    border: none;
+    position: relative;
+    list-style: none;
+  }
+  #notebook ul li {
+    border: 1px solid black;
+    padding: -1px 12px;
+    background-color: #ffffff;
+    /* border-top: 0px; */
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+    left: 630px;
+    top: -145px;
+    height: 52px;
+    width: 220px;
+    border: none;
+    z-index: 1;
+  }
+  
+ #notebook ul li:hover{
+    background-color: #ccc; 
+  } 

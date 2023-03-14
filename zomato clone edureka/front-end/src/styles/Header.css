@@ -1,0 +1,75 @@
+.header{
+    height:80px;
+    width: 1366px;
+    top: 0px;
+    left: 0px;
+    background-color: #CE0505;
+    position: relative;
+}
+.logo{
+    display: inline-block;
+    border-radius: 50%;
+    top: 16px;
+    left: 112px;
+    width: 52px;
+    height: 52px;
+    color: #CE0505;
+    background-color: white; 
+    font-size: 42px;
+    position: absolute;
+    padding-left: 35px;
+    
+}
+.login{
+    background-color: #CE0505;
+    border:#CE0505;
+    color: white;
+    top: 27px;
+    left: 1000px;
+    width: 43px;
+    height: 23px;
+    font: normal normal normal 14px/21px Poppins; 
+    position: absolute;
+}
+
+.createanaccount{
+    background-color: #CE0505;
+    border: white;
+    border-radius: 4px;
+    color: white;
+    top: 17px;
+    left: 1078px;
+    width: 181px;
+    height: 46px;
+    border: 1px solid;
+    position: absolute; 
+    font: normal normal normal 14px/21px Poppins; 
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    top: -8px;
+    left: 8px;
+    position: absolute;
+    font-weight: bolder;
+}
+.google{
+    width: 100%;
+    height: 46px;
+}
+.Signup{
+    cursor: pointer;
+    color: #ED5A6B;
+}
+.btn1{
+    left: 112px;
+    position: relative;
+    background-color: white;
+    border-color: white;
+    border-radius: 4px;
+}
+.LOGIN{
+    cursor: pointer;
+    color: #ED5A6B;
+}
